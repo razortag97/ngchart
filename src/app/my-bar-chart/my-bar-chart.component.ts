@@ -11,13 +11,13 @@ export class MyBarChartComponent implements OnInit {
     responsive: true
   };
   public barChartLabels = ['2006', '2007', '2008', '2009', '2010', '2011', '2012'];
-  public barChartType = 'bar';
+  public barChartType = 'horizontalbar';
   public barChartLegend = true;
   public barChartData = [
-    {data: [65, 59, 80, 81, 56, 155, 40], label: 'Bofa'},
-    {data: [28, 48, 40, 191, 186, 27, 90], label: 'Citibank'},
-    {data: [28, 48, 40, 19, 81, 71, 190], label: 'Discover'},
-    {data: [96, 25, 11, 179, 16, 27, 190], label: 'AMEX'}
+    {data: [65, 59, 80, 81, 56, 155, 40], label: 'Product 1'},
+    {data: [28, 48, 40, 191, 186, 27, 90], label: 'Product 2'},
+    {data: [28, 48, 40, 19, 81, 71, 190], label: 'Product 3'},
+    {data: [96, 25, 11, 179, 16, 27, 190], label: 'Product 4'}
   ];
   ngOnInit() {
   }
